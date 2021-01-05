@@ -1,11 +1,9 @@
-##Code Book
-
+## Code Book
 
 
 1.  **Download the data set**
 
 Data set downloaded under the folder name: "UCI HAR Dataset". Extracted from <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
-
 
 
 2.  **Assign each data to variables**
@@ -15,31 +13,39 @@ Data set downloaded under the folder name: "UCI HAR Dataset". Extracted from <ht
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
+
 ```activities <- activity_labels.txt``` : 6 rows, 2 columns
 
 Links the class labels with their activity name.
+
 
 ```subject_test <- test/subject_test.txt``` : 2947 rows, 1 column
 
 contains test data of 9/30 volunteer test subjects being observed
 
+
 ```x_test <- test/X_test.txt``` : 2947 rows, 561 columns
 
 Test set
+
 
 ```y_test <- test/y_test.txt``` : 2947 rows, 1 columns
 
 Test labels
 
+
 ```subject_train <- test/subject_train.txt``` : 7352 rows, 1 column
 
 contains train data of 21/30 volunteer subjects being observed
+
 
 ```x_train <- test/X_train.txt``` : 7352 rows, 561 columns
 
 Links the class labels with their activity name
 
+
 ```y_train <- test/y_train.txt``` : 7352 rows, 1 columns
+
 
 Training labels
 
