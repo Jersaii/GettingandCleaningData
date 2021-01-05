@@ -1,9 +1,6 @@
----
-title: "Code Book"
-author: "Brandon"
-date: "1/4/2021"
-output: pdf_document
----
+##Code Book
+
+
 
 1.  **Download the data set**
 
