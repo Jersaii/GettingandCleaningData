@@ -1,6 +1,6 @@
 library(dplyr)
 filename <- "Getting_and_Cleaning_data.zip"
-if (!file.exists("")){
+if (!file.exists(filename)){
     fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     download.file(fileURL, filename, method="curl")
 }  
